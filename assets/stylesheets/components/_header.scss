@@ -1,6 +1,13 @@
 .header {
   display: none;
   padding: $s 0;
+  padding: 0;
+  min-height: 350px;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @include from(lg) {
     box: horizontal middle;
