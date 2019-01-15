@@ -2,12 +2,12 @@ backend:
   name: 'git-gateway'
   branch: 'master'
 
-display_url: 'https://miloandfinn.netlify.com'
-logo_url: 'https://miloandfinn.netlify.com/assets/favicons/android-chrome-384x384.png'
+display_url: 'https://wood.netlify.com'
+logo_url: 'https://wood.netlify.com/assets/favicons/android-chrome-384x384.png'
 media_library:
   name: 'uploadcare'
   config:
-    publicKey: '9f0b2b6f1d82d63f1332'
+    publicKey: 'dc45e2edd3500fecbc5a'
     imagesOnly: true
     tabs: 'file gphotos url'
 
@@ -18,6 +18,21 @@ collections:
     editor:
       preview: false
     files:
+      - label: 'Home'
+        name: 'home'
+        file: 'pages/home.md'
+        fields:
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string', hint: 'use <br> to make a new line' }
+          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+          - { label: 'Image', name: 'image', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
+          - { label: 'Image1', name: 'image1', widget: 'image' }
+          - { label: 'Image2', name: 'image2', widget: 'image' }
+          - { label: 'Image3', name: 'image3', widget: 'image' }
+          - { label: 'Logo', name: 'logo', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' } 
       - label: 'About Us'
         name: 'about'
         file: 'pages/about.md'
@@ -26,6 +41,9 @@ collections:
           - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'about' }
           - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
           - { label: 'Summary', name: 'summary', widget: 'text' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Tentang Kami'
         name: 'tentang'
@@ -35,6 +53,9 @@ collections:
           - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'tentang-kami' }
           - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'navId' }
           - { label: 'Lang', name: 'lang', widget: 'hidden', default: 'id' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
           - { label: 'Summary', name: 'summary', widget: 'text' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'FAQ'
@@ -44,6 +65,9 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'faq' }
           - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
           - label: 'Questions'
             name: 'questions'
             widget: 'list'
