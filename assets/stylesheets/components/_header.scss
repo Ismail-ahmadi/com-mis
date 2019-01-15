@@ -1,5 +1,5 @@
 .header {
-  display: none;
+  display: block;
   padding: $s 0;
 
   @include from(lg) {

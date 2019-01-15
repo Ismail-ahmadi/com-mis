@@ -3,15 +3,17 @@
   position: relative;
   margin: 0 auto 0 $s*1.5;
   padding: $h $s;
-  color: $gray-800;
-  background-color: $gray-200;
+  color: $white;
+  background-color: $orange;
   border-radius: $q;
+  width: 180px;
+  height: 35px;
 
   svg {
     size: $s;
 
     &:first-child {
-      fill: $gray-600;
+      fill: $white;
     }
   }
 
@@ -23,11 +25,11 @@
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    top: $s*2;
+    top: 60px;
     left: 0;
     width: 100%;
     padding: $t 0;
-    background-color: $gray-100;
+    background-color: $lighBlack;
     transition: all $fast ease-in-out;
     transform: translateY(-$h);
   }

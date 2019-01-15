@@ -1,11 +1,17 @@
 {% include 'includes/mobile.html' %}
 
-<header class="container header">
-  <a href="{{ locale.url }}" class="logo"><img src="{{ config.site.logo }}"/></a>
+<header class="container header" style="background-image: url('{{ image }}')">
+  <div class="headercontent">
+    <div class="headercontent__logo">
+    <a href="{{ locale.url }}" class="logo"><img src="{{ config.site.logo }}"/></a>
+  </div>
+  <div class="navmenu">
+    <nav class="menu" role="navigation">
+      {% include 'components/menu-items.html' %}
+    </nav>
   {% include 'components/locale.html' %}
-  {% include 'components/search-bar.html' %}
-  <nav class="menu" role="navigation">
-    {% include 'components/menu-items.html' %}
-  </nav>
+  {% comment %} {% include 'components/search-bar.html' %} {% endcomment %}
+  </div>
   <h3 class="header__title"> {{ headertitle }}</h3>
+  </div>
 </header>

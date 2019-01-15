@@ -1,7 +1,7 @@
 // import Flickity from 'flickity';
 // import 'flickity/dist/flickity.min.css';
 import '../stylesheets/style.scss';
-// import * as config from '../../config/config.json';
+import * as config from '../../config/config.json';
 
 // const flickity = new Flickity('.gallery', {
 //   contain: true,
@@ -9,10 +9,10 @@ import '../stylesheets/style.scss';
 //   // https://flickity.metafizzy.co/options.html (commentout)
 // });
 
-// const burger = document.querySelector('button.burger');
-// const burgerActive = 'burger--morph';
-// const mobilePanel = document.querySelector('.mobile__panel');
-// const mobilePanelActive = 'mobile__panel--open';
+const burger = document.querySelector('button.burger');
+const burgerActive = 'burger--morph';
+const mobilePanel = document.querySelector('.mobile__panel');
+const mobilePanelActive = 'mobile__panel--open';
 
 // burger.addEventListener('click', () => {
 //   burger.classList.toggle(burgerActive);
