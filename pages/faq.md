@@ -2,8 +2,8 @@
 title: Frequently Asked Questions
 slug: faq
 tags: nav
-navtitle: Questions
-summary: Some commonly asked questions about our business
+header: 'https://ucarecdn.com/e5a2b1e5-6edd-4f21-999d-a29a25b87ea8/'
+headertitle: Indonesian engineered wood floor for creative living
 questions:
   - answer: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur
