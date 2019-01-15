@@ -1,6 +1,19 @@
 .menu {
+  // background-color: green;
   &__link {
     padding: $h;
+    text-decoration: none;
+    display: inline-block;
+    padding: $h $s;
+    background-color: $orange;
+    color: $white;
+    &--active{
+      color:$lightBlack;
+    }
+  &__link:hover {
+      color: $orange;
+      background-color: $lightBlack;
+    }
   }
 
   @at-root .mobile__panel #{&} {

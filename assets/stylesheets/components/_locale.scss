@@ -25,11 +25,11 @@
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    top: 60px;
+    top: 57px;
     left: 0;
     width: 100%;
     padding: $t 0;
-    background-color: $lighBlack;
+    background-color: $lightBlack;
     transition: all $fast ease-in-out;
     transform: translateY(-$h);
   }
