@@ -2,7 +2,9 @@
 title: About Us
 slug: about
 tags: nav
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+header: 'https://ucarecdn.com/77118732-d4f9-4170-a19b-91aa5dbc3b00/'
+headertitle: Indonesian engineered wood floor for creative living
 ---
 ## About Us
 
