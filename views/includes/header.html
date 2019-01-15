@@ -1,10 +1,11 @@
 {% include 'includes/mobile.html' %}
 
 <header class="container header">
-  <a href="{{ locale.url }}" class="logo">{% Icon 'logo' %}</a>
+  <a href="{{ locale.url }}" class="logo"><img src="{{ config.site.logo }}"/></a>
   {% include 'components/locale.html' %}
   {% include 'components/search-bar.html' %}
   <nav class="menu" role="navigation">
     {% include 'components/menu-items.html' %}
   </nav>
+  <h3 class="header__title"> {{ headertitle }}</h3>
 </header>
