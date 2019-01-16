@@ -2,7 +2,7 @@
 headertitle: Indonesian engineered wood floor for creative living
 permalink: /
 layout: home
-image: 'https://ucarecdn.com/2e2aa5c7-e8a1-4649-b80a-34ea00245c53/'
+header: 'https://ucarecdn.com/2e2aa5c7-e8a1-4649-b80a-34ea00245c53/'
 imagehome: 'https://ucarecdn.com/8c53d49b-1f43-4596-8166-aa14ac93d6c6/'
 image1: 'https://ucarecdn.com/9b15c55e-c97f-489c-bc45-8267bca6752b/'
 image2: 'https://ucarecdn.com/9efbac30-653d-417f-b7cc-ff7401e9fa19/'

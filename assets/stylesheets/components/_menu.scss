@@ -5,14 +5,15 @@
     text-decoration: none;
     display: inline-block;
     padding: $h $s;
-    background-color: $orange;
+    background-color: $lightBlack;
     color: $white;
     &--active{
-      color:$lightBlack;
+      color: $lightBlack;
+      background-color: $orange;
     }
-  &__link:hover {
-      color: $orange;
-      background-color: $lightBlack;
+    &:hover {
+      color: $lightBlack;
+      background-color: $orange;
     }
   }
 

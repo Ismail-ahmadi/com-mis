@@ -38,7 +38,7 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'about' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+          - { label: 'Tags', name: 'tags', widget: 'string', default: 'nav', hint: 'use a single word' }
           - { label: 'Summary', name: 'summary', widget: 'text' }
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
@@ -84,6 +84,8 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
       - {label: 'Date', name: 'date', widget: 'date'}
       - {label: 'Location', name: 'location', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
