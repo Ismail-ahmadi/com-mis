@@ -151,9 +151,10 @@ collections:
             name: 'footer'
             widget: 'object'
             fields:
-              - { label: 'Footer Center', name: 'footercenter', widget: 'markdown', hint: 'This  is the title of footer, center section'}
-              - { label: 'Footer Right', name: 'footerright', widget: 'markdown', hint: 'This  is the title of footer, right section'}
-
+              - { label: 'Footer Center Title', name: 'footercentertitle', widget: 'string', hint: 'This  is the title of footer, center section'}
+              - { label: 'Footer Center', name: 'footercenter', widget: 'markdown', hint: 'This  is the content of footer, center section'}
+              - { label: 'Footer Right Title', name: 'footerrighttitle', widget: 'string', hint: 'This  is the title of footer, right section'}
+              - { label: 'Footer Right', name: 'footerright', widget: 'markdown', hint: 'This  is the content of footer, right section'}
           - label: 'Locales'
             name: 'locales'
             widget: 'object'
