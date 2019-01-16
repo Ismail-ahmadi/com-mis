@@ -9,7 +9,7 @@
   background-size: cover;
 
   @include from(lg) {
-    box: horizontal middle;
+    box: horizontal top;
   }
 
   .logo {
