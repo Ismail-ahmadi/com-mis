@@ -1,5 +1,6 @@
 ---
 title: Christmas Celebration
+header: 'https://ucarecdn.com/508dc2bf-bed2-48dc-a2ab-5a484a59d698/'
 date: 2018-12-25T10:36:44.938Z
 location: Jakarta
 image: 'https://ucarecdn.com/561b3e3d-ad98-46bd-a034-18464cd8ed08/'
