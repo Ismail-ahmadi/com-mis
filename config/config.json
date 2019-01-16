@@ -10,6 +10,9 @@
     "image": "https://ucarecdn.com/bda06761-6071-4dff-b49e-b9d705cfb3d6/",
     "description": "The world's FIRST ever engineered wooden flooring (Should not exceed more than 160 characters.)."
   },
+  "footer": {
+    "footerTitle": "This is a titile in the footer"
+  },
   "locales": {
     "en": {
       "url": "/",
