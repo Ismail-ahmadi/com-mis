@@ -25,6 +25,8 @@ collections:
           - { label: 'Headertitle', name: 'headertitle', widget: 'string', hint: 'use <br> to make a new line' }
           - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+          - { label: 'Image', name: 'image', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
           - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
