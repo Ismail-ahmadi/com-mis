@@ -15,8 +15,9 @@ select,
 textarea {
   color: $gray-800;
   margin-top: .25rem;
+  width: 80%;
   padding: .6rem .85rem;
-  border-radius: 5px;
+  // border-radius: 5px;
   border: 1px solid $gray-300;
   transition: all .25s ease;
 
