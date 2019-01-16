@@ -151,8 +151,9 @@ collections:
             name: 'footer'
             widget: 'object'
             fields:
-              - { label: 'Logo', name: 'logo', widget: 'image', hint: 'This image appears in the header'}
-              - { label: 'Footer Title', name: 'footerTitle', widget: 'string', hint: 'This  is the title of footer, center section'}
+              - { label: 'Footer Center', name: 'footercenter', widget: 'markdown', hint: 'This  is the title of footer, center section'}
+              - { label: 'Footer Right', name: 'footerright', widget: 'markdown', hint: 'This  is the title of footer, right section'}
+
           - label: 'Locales'
             name: 'locales'
             widget: 'object'
