@@ -1,0 +1,24 @@
+.homeimage {
+    width: 100%;
+    max-width: $container-max;
+    min-height: 400px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cardimage {
+    width: 250px;
+    height: auto;
+}
+.cardholder {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: $s*1.5;
+    grid-template-columns: repeat(auto-fit, minmax($s*16, 1fr));
+    margin-bottom: $s;
+    font-size: 0.7rem;
+}
