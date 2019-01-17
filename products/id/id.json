@@ -1,0 +1,6 @@
+{
+    "lang": "id",
+    "tags": "product",
+    "layout": "product",
+    "permalink": "/id/products/{{ title | slug }}/index.html"
+}

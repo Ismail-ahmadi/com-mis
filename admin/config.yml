@@ -84,6 +84,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Navigation title', name: 'navtitle', widget: 'string', hint: 'must be just a single word.'}
       - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
       - {label: 'Date', name: 'date', widget: 'date'}
@@ -100,11 +101,60 @@ collections:
             previewStep: false
 
   - name: 'events-id'
-    label: 'Events in Indonesian'
+    label: 'Eventss in Indonesian'
     description: 'Add or modify Indonesian events here'
     editor:
       preview: false
     folder: 'events/id'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Date', name: 'date', widget: 'date'}
+      - {label: 'Location', name: 'location', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Image', name: 'image', widget: 'image', required: false}
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'image'
+        required: false
+        media_library:
+          config:
+            multiple: true
+            previewStep: false
+
+  - name: 'Products'
+    label: 'Products in English'
+    description: 'Add or modify English Products here'
+    editor:
+      preview: false
+    folder: 'products'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Navigation title', name: 'navtitle', widget: 'string', hint: 'must be just a single word.'}
+      - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+      - {label: 'Date', name: 'date', widget: 'date'}
+      - {label: 'Location', name: 'location', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Image', name: 'image', widget: 'image', required: false}
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'image'
+        required: false
+        media_library:
+          config:
+            multiple: true
+            previewStep: false
+
+  - name: 'Products-id'
+    label: 'Products in Indonesian'
+    description: 'Add or modify Indonesian Products here'
+    editor:
+      preview: false
+    folder: 'products/id'
     create: true
     slug: '{{slug}}'
     fields:
