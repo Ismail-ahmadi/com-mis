@@ -23,13 +23,13 @@
     font-size: 0.7rem;
 }
 .button {
-    background-color: $gray-500;
+    background-color: $lightBlack;
     color: $white;
     padding: .5rem;
     text-decoration: none;
 }
 
 .button:hover {
-    color: $gray-500;
-    background-color: $gray-200;
+    color: $lightBlack;
+    background-color: $orange;
 }
