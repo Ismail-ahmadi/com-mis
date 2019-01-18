@@ -9,7 +9,10 @@
     width: 85%;
     margin: 10px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax($s*18, 1fr));
+    @include from(lg) {
+      box: horizontal top;
+    }
     // grid-template-rows: 1fr 100px;
     // // just-items: center;
     // justify-self: center;  
