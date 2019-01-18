@@ -57,6 +57,16 @@ collections:
           - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
           - { label: 'Summary', name: 'summary', widget: 'text' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'contact'
+        name: 'contact'
+        file: 'pages/contact.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'contact' }
+          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
       - label: 'FAQ'
         name: 'faq'
         file: 'pages/faq.md'
