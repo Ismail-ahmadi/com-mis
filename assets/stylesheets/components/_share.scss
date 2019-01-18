@@ -1,18 +1,35 @@
 .share {
   display: inline-flex;
-
+ 
   &__heading {
     margin-top: $s*2;
   }
 
   &__button {
     box: horizontal center middle;
-    padding: $q;
+    padding: $q*1.8;
     margin-right: $h;
-    color: $gray-600;
-
-    svg {
-      size: $s;
+    color: $orange;
+    background-color: $gray-600;
+    svg { 
+      size: $h*3;    
+    }
+    svg rect {
+    stroke: #eeeeee;
+    stroke-width: 8;
+    fill: #eeeeee;
+    transition: all 0.2s ease-in-out;
+      &:hover {
+        stroke-width: 80;
+        stroke: $orange;
+        }
+    }
+    svg path {
+      fill: #000000;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        fill: $orange;
+        }
     }
   }
 }

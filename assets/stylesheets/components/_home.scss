@@ -27,9 +27,11 @@
     color: $white;
     padding: .5rem;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
     color: $lightBlack;
     background-color: $orange;
+    transition: all 0.2s ease-in-out;
 }

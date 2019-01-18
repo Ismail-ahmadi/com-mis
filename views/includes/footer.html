@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer__content">
     <div class="footer__content__left">
-      <h4>Contact Us</h4>
+      <h4 class="white">Contact Us</h4>
             <p>Please feel free to Contact us </p>
             <form class="form">
             <label>Name:</label>
@@ -11,17 +11,17 @@
             <label>Message:</label>
             <textarea name="message" required placeholder="Enter your message" ></textarea>
             <button type="submit" name="submit">Submit</button>
-            </form>
+            </form> 
     </div>
     <div class="footer__content__center">
-      <h4>{{ config.footer.footercentertitle }}</h4>
+      <h4 class="white" >{{ config.footer.footercentertitle }}</h4>
       <p>{{ config.footer.footercenter }}</p>
-      <h4>{{ config.footer.footercentertitletwo }}</h4>
+      <h4 class="white" >{{ config.footer.footercentertitletwo }}</h4>
       <p>{{ config.footer.footercentertwo }}</p>
     </div>
     <div class="footer__content__right">
       {% include 'components/social-share.html' %}
-      <h4>{{ config.footer.footerrighttitle }}</h4>
+      <h4 class="white">{{ config.footer.footerrighttitle }}</h4>
       <p>{{ <config.footer.footerright }}</p>
     </div>
   </div>
