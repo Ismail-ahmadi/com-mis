@@ -2,8 +2,7 @@
 title: Frequently Asked Questions
 slug: faq
 tags: nav
-navtitle: FAQ
-header: 'https://ucarecdn.com/e5a2b1e5-6edd-4f21-999d-a29a25b87ea8/'
+header: 'https://ucarecdn.com/1b70b64f-7671-4709-98c8-d3e0b30d5e81/'
 headertitle: Indonesian engineered wood floor for creative living
 questions:
   - answer: >-
