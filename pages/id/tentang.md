@@ -2,7 +2,7 @@
 title: Tentang Kami
 slug: tentang
 tags: nav
-header: 'https://ucarecdn.com/94b0be1f-4e36-4ad7-ba42-bc5239f8ff5f/'
+header: 'https://ucarecdn.com/bda84121-4831-463a-a231-888bde2d42e8/'
 headertitle: Indonesian engineered wood floor for creative living
 summary: 'Penghasilan Rp 100 Jutaan Per Hari, Kisah Juragan Lele di Indramayu'
 ---
