@@ -72,6 +72,7 @@ collections:
         file: 'pages/faq.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'FAQ' }
           - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'faq' }
           - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
