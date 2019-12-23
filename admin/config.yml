@@ -2,12 +2,12 @@ backend:
   name: 'git-gateway'
   branch: 'master'
 
-display_url: 'https://wood.netlify.com'
+display_url: 'https://mis-com.netlify.com'
 logo_url: 'https://wood.netlify.com/assets/favicons/android-chrome-384x384.png'
 media_library:
   name: 'uploadcare'
   config:
-    publicKey: 'dc45e2edd3500fecbc5a'
+    publicKey: '878d9333b417f60911fa'
     imagesOnly: true
     tabs: 'file gphotos url'
 
