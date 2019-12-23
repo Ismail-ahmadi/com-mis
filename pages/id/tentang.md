@@ -1,13 +1,13 @@
 ---
-title: Tentang Kami
+title: درباره ما
 slug: tentang
 tags: nav
 header: 'https://ucarecdn.com/bda84121-4831-463a-a231-888bde2d42e8/'
-headertitle: Indonesian engineered wood floor for creative living
-summary: 'Penghasilan Rp 100 Jutaan Per Hari, Kisah Juragan Lele di Indramayu'
+headertitle: 'سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس'
+summary: 'سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس'
 ---
-## Tentang Kami
+## درباره ما
 
-Kedua desa ini awalnya beternak udang windu pada akhir 80-an. Tetapi di awal 90-an, bencana terjadi. Budi daya udang windu hancur karena air laut di pesisir pantai Losarang tercemar limbah. Ribuan benur mati. Para petambak rugi hingga ratusan juta rupiah. Salah seorang petambak udang, Carmin Iswahyudi, tak luput dari bencana tersebut. Di tengah kegalauan, ia mengamati beberapa peternak lele yang “bermain di pinggiran” tambak tambak udang windu selamat dari bencana. Terpikir olehnya, mengapa tidak beralih beternak lele saja? Carmin yang akrab disapa Maming lalu menebar ribuan bibit lele asal penangkaran di Cirebon, dan Parung Bogor. Bibit ia tebar ke 20 kolam masing masing seluas 500 meter persegi.
+سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس 
 
-Carmin yang akrab disapa Maming lalu menebar ribuan bibit lele asal penangkaran di Cirebon, dan Parung Bogor. Bibit ia tebar ke 20 kolam masing masing seluas 500 meter persegi. Dua setengah bulan kemudian ia sudah memetik hasilnya. Permintaan lele dari sekitar 3 ton per hari, naik menjadi 7 ton per hari. Setelah Maming membentuk kelompok peternak lele tahun 2003, jumlah tambak lele kelompoknya mencapai 25 hektar.
+سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس
