@@ -3,7 +3,7 @@ title: Product List
 slug: product
 tags: nav
 navtitle: Products
-header: 'https://ucarecdn.com/2e2aa5c7-e8a1-4649-b80a-34ea00245c53/'
+header: 'https://ucarecdn.com/cc2aaa6c-7afb-427d-be1a-c3773704c7c3/'
 headertitle: Indonesian engineered wood floor for creative living
 ---
 
