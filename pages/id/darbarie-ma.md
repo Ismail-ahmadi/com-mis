@@ -3,9 +3,7 @@ title: درباره ما
 slug: darbarie-ma
 tags: nav
 header: 'https://ucarecdn.com/ccdc3425-8dc1-46e2-a2b9-e52d52f28a8f/'
-headertitle: >-
-  <h1 class="farsi"> سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس
-  </h1>
+headertitle: 'سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس '
 summary: 'سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس'
 ---
 <h1 class="farsi "> درباره ما </h1>
