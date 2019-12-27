@@ -4,9 +4,6 @@ permalink: /
 layout: home
 header: 'https://ucarecdn.com/38452d3d-3070-437d-b6f0-e1227163f6e1/'
 imagehome: 'https://ucarecdn.com/fe0a2aea-879d-4965-80d3-c273c36dd607/'
-image1: 'https://ucarecdn.com/9b15c55e-c97f-489c-bc45-8267bca6752b/'
-image2: 'https://ucarecdn.com/9efbac30-653d-417f-b7cc-ff7401e9fa19/'
-image3: 'https://ucarecdn.com/6729fb87-5a8e-496c-af71-8d59f2eef2b9/'
 ---
 ## **Muslims' most misconceptions about Christianity, Christian life and Holy Book**
 
