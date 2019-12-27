@@ -97,11 +97,17 @@ strong {
 .faint {
   color: $white;
 }
+
 .lightBlack {
   color: $white;
 }
-.share{
+
+.share {
   color: $white;
-    margin: 0;
-    padding: 0.2rem 0.6rem;
+  margin: 0;
+  padding: 0.2rem 0.6rem;
+}
+
+.farsi {
+  direction: rtl;
 }
