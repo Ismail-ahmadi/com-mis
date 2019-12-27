@@ -3,7 +3,7 @@ title: About Us
 slug: about
 tags: nav
 summary: Misconceptions About Muslims
-header: 'https://ucarecdn.com/d58f31a1-c91f-4467-adb2-bbc4a1c10460/'
+header: 'https://ucarecdn.com/ad2c750a-11bf-4583-8029-b18570e026a7/'
 headertitle: Muslims’ Misconceptions
 ---
 It is also important to note that Muslims have many misconceptions about Christianity. Most Muslims don’t understand our view of the Trinity, and wrongly assume that Christians worship three Gods. The sonship of Jesus is a stumbling block for them because many mistakenly take it to mean that God had sexual relations with Mary. Muslims also view Christianity primarily through the lens of Western society. In the Muslim world, Islam is woven into every fabric of society so that the religion’s value is reflected in the culture. Therefore, some Muslims have a hard time accepting the claims of Christ because they see the vices in our society and wrongly attribute them to Christianity.
