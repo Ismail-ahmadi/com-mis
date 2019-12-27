@@ -1,33 +1,20 @@
 <footer class="footer">
   <div class="footer__content">
     <div class="footer__content__left">
-      <h4 class="white">Contact Us</h4>
-            <p>Please feel free to Contact us </p>
-            <form class="form">
-            <label>Name:</label>
-            <input type="text" name="name" placeholder="Enter your full name" required >
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="Enter your Email" required >
-            <label>Message:</label>
-            <textarea name="message" required placeholder="Enter your message" ></textarea>
-            <button type="submit" name="submit">Submit</button>
-            </form> 
+      <h4 class="white">Our Social Media</h4> 
     </div>
     <div class="footer__content__center">
       <h4 class="white" >{{ config.footer.footercentertitle }}</h4>
       <p>{{ config.footer.footercenter }}</p>
-      <h4 class="white" >{{ config.footer.footercentertitletwo }}</h4>
-      <p>{{ config.footer.footercentertwo }}</p>
     </div>
     <div class="footer__content__right">
-      {% include 'components/social-share.html' %}
       <h4 class="white">{{ config.footer.footerrighttitle }}</h4>
       <p>{{ <config.footer.footerright }}</p>
     </div>
   </div>
   <div class="footer__content__bottom">
       <P>
-      Copyright  ©  {{ 'now' | date: '%Y' }}  Great wood Indonesian engineered wood floor for creative living
+      Copyright  ©  {{ 'now' | date: '%Y' }}  Muslims' most misconception about Christianity, Christain lifestyle, and Holy Book
     </P>
   </div>
 </footer>
