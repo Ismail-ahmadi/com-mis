@@ -3,7 +3,7 @@ layout: home
 permalink: /id/ 
 headertitle: سوتفاهم های مسلمانان  درباره مسحیت, زندگی مسیحی و کتاب مقدس
 header: 'https://ucarecdn.com/2e2aa5c7-e8a1-4649-b80a-34ea00245c53/'
-imagehome: 'https://ucarecdn.com/6c596f8a-4e64-44aa-9983-42d5873df40d/'
+header: 'https://ucarecdn.com/38452d3d-3070-437d-b6f0-e1227163f6e1/'
 image1: 'https://ucarecdn.com/9b15c55e-c97f-489c-bc45-8267bca6752b/'
 image2: 'https://ucarecdn.com/9efbac30-653d-417f-b7cc-ff7401e9fa19/'
 image3: 'https://ucarecdn.com/6729fb87-5a8e-496c-af71-8d59f2eef2b9/'
