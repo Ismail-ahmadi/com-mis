@@ -3,7 +3,7 @@ title: سوال های که اقلبا پرسیده می شود
 slug: FAQ
 tags: nav
 navtitle: سوال های مشابه
-header: 'https://ucarecdn.com/1b70b64f-7671-4709-98c8-d3e0b30d5e81/'
+header: 'https://ucarecdn.com/cc2aaa6c-7afb-427d-be1a-c3773704c7c3/'
 headertitle: سوتفاهم های مسلمانان  درباره مسحیت, زندگی مسیحی و کتاب مقدس
 questions: 
   - answer: >-
