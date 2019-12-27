@@ -1,10 +1,10 @@
 ---
-title: Product List
-slug: product
+title: Article List
+slug: article
 tags: nav
-navtitle: Products
+navtitle: Articles
 header: 'https://ucarecdn.com/cc2aaa6c-7afb-427d-be1a-c3773704c7c3/'
-headertitle: Indonesian engineered wood floor for creative living
+headertitle: Our aim is to tell the truth about one and only GOd
 ---
 
-<p class="lead">Find Our products list</p>
+<p class="lead">Find Our article list</p>
