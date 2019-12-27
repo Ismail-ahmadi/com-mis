@@ -44,12 +44,12 @@ collections:
           6 inch ' }
           - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Tentang Kami'
-        name: 'tentang'
-        file: 'pages/id/tentang.md'
+      - label: 'darbarie-ma'
+        name: 'darbarie'
+        file: 'pages/id/darbarie-ma.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'tentang-kami' }
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'darbarie-ma' }
           - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'navId' }
           - { label: 'Lang', name: 'lang', widget: 'hidden', default: 'id' }
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
@@ -112,8 +112,8 @@ collections:
             previewStep: false
 
   - name: 'events-id'
-    label: 'Eventss in Indonesian'
-    description: 'Add or modify Indonesian events here'
+    label: 'Eventss in Farsi'
+    description: 'Add or modify events in Farsi here'
     editor:
       preview: false
     folder: 'events/id'

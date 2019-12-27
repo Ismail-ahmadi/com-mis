@@ -1,6 +1,6 @@
 ---
 title: درباره ما
-slug: tentang
+slug: darbarie-ma
 tags: nav
 header: 'https://ucarecdn.com/bda84121-4831-463a-a231-888bde2d42e8/'
 headertitle: 'سو تفاهم ها مسلمانان درباره مسیحت, زندگی مسیحی و کتاب مقدس'

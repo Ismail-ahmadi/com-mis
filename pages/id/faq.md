@@ -1,22 +1,22 @@
 ---
-title: Frequently Asked Questions
-slug: faq
+title: سوال های که اقلبا پرسیده می شود
+slug: FAQ
 tags: nav
-navtitle: FAQ
+navtitle: سوال های مشابه
 header: 'https://ucarecdn.com/1b70b64f-7671-4709-98c8-d3e0b30d5e81/'
-headertitle: Indonesian engineered wood floor for creative living
-questions:
+headertitle: سوتفاهم های مسلمانان  درباره مسحیت, زندگی مسیحی و کتاب مقدس
+questions: 
   - answer: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur
       provident eaque, obcaecati laudantium officia dolores maxime illum
       assumenda. Dolor tenetur saepe voluptatem iure suscipit hic labore,
       consequuntur cum at.
-    question: What is your name?
+    question: سوال دوم
   - answer: >-
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
       ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
       tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
       Donec lacinia congue felis in faucibus.
-    question: What is your address?
+    question: سوال اول
 ---
 
