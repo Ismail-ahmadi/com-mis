@@ -6,8 +6,25 @@
   right: 0;
   z-index: 2;
   padding: 0 $h;
+  height: $s*3;
   background-color: $white;
   border-bottom: 1px solid $line;
+
+  &__header {
+    display: none;
+
+    @include to(md) {
+      display: block;
+      min-height: 300px;
+      margin: $s*3 0 0 0;
+
+      &__title {
+        padding: $s*4 $s*2;
+      }
+
+    }
+
+  }
 
   @include from(lg) {
     display: none;
