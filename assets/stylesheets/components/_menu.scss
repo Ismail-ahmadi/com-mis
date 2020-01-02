@@ -1,4 +1,5 @@
 .menu {
+
   // background-color: green;
   &__link {
     padding: $s*0.65;
@@ -7,13 +8,30 @@
     // padding: $h $s;
     background-color: $lightBlack;
     color: $white;
-    &--active{
+
+    @include to(md) {
+      background-color: $gray-100;
+      color: $lightBlack;
+    }
+
+    &--active {
       color: $lightBlack;
       background-color: $orange;
+
+      @include to(md) {
+        background-color: $gray-100;
+        color: $orange;
+      }
     }
+
     &:hover {
       color: $lightBlack;
       background-color: $orange;
+
+      @include to(md) {
+        background-color: $gray-100;
+        color: $orange;
+      }
     }
   }
 
