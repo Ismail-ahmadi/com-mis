@@ -103,7 +103,7 @@ collections:
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
           - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-      - label: 'FAQ'
+      - label: 'FAQ-fa'
         name: 'faq-fa'
         file: 'pages/id/faq-fa.md'
         fields:
@@ -120,7 +120,7 @@ collections:
             fields:
               - { label: 'Question', name: 'question', widget: 'string' }
               - { label: 'Answer', name: 'answer', widget: 'text' }
-              
+
   - name: 'events'
     label: 'Events in English'
     description: 'Add or modify English events here'
