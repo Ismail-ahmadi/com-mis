@@ -1,5 +1,5 @@
 ---
-title: Hasil Pencarian
+title: جستجوی شما
 slug: search
 layout: search
 ---
