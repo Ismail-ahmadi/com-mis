@@ -28,9 +28,6 @@ collections:
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
           - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
-          - { label: 'Image1', name: 'image1', widget: 'image' }
-          - { label: 'Image2', name: 'image2', widget: 'image' }
-          - { label: 'Image3', name: 'image3', widget: 'image' }
           - { label: 'Body', name: 'body', widget: 'markdown' } 
       - label: 'About Us'
         name: 'about'
@@ -43,19 +40,6 @@ collections:
           - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
           6 inch ' }
           - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'darbarie-ma'
-        name: 'darbarie'
-        file: 'pages/id/darbarie-ma.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'darbarie-ma' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'navId' }
-          - { label: 'Lang', name: 'lang', widget: 'hidden', default: 'id' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - { label: 'Summary', name: 'summary', widget: 'text' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'contact'
         name: 'contact'
@@ -84,7 +68,59 @@ collections:
             fields:
               - { label: 'Question', name: 'question', widget: 'string' }
               - { label: 'Answer', name: 'answer', widget: 'text' }
-
+      - label: 'Khone'
+        name: 'khone'
+        file: 'pages/id/home.md'
+        fields:
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string', hint: 'use <br> to make a new line' }
+          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/id/' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'darbarie-ma'
+        name: 'darbarie'
+        file: 'pages/id/darbarie-ma.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'darbarie-ma' }
+          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'navId' }
+          - { label: 'Lang', name: 'lang', widget: 'hidden', default: 'id' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
+          - { label: 'Summary', name: 'summary', widget: 'text' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'tamas'
+        name: 'contact'
+        file: 'pages/id/tamas.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'Contact-us' }
+          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'تماس با ما' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
+      - label: 'FAQ'
+        name: 'faq-fa'
+        file: 'pages/id/faq-fa.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'سوال های مشابه' }
+          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'faq' }
+          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
+          6 inch ' }
+          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
+          - label: 'Questions'
+            name: 'questions'
+            widget: 'list'
+            fields:
+              - { label: 'Question', name: 'question', widget: 'string' }
+              - { label: 'Answer', name: 'answer', widget: 'text' }
+              
   - name: 'events'
     label: 'Events in English'
     description: 'Add or modify English events here'
@@ -133,54 +169,7 @@ collections:
           config:
             multiple: true
             previewStep: false
-
-  - name: 'Products'
-    label: 'Products in English'
-    description: 'Add or modify English Products here'
-    editor:
-      preview: false
-    folder: 'products'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Navigation title', name: 'navtitle', widget: 'string', hint: 'must be just a single word.'}
-      - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {label: 'Image', name: 'image', widget: 'image', required: false}
-      - label: 'Gallery'
-        name: 'gallery'
-        widget: 'image'
-        required: false
-        media_library:
-          config:
-            multiple: true
-            previewStep: false
-
-  - name: 'Products-id'
-    label: 'Products in Indonesian'
-    description: 'Add or modify Indonesian Products here'
-    editor:
-      preview: false
-    folder: 'products/id'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {label: 'Image', name: 'image', widget: 'image', required: false}
-      - label: 'Gallery'
-        name: 'gallery'
-        widget: 'image'
-        required: false
-        media_library:
-          config:
-            multiple: true
-            previewStep: false
-    
+  
   - name: 'settings'
     label: 'Settings'
     description: 'Configure settings for the website here'
