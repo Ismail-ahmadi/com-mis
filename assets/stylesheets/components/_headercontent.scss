@@ -1,4 +1,4 @@
-.headercontent{
+.headercontent {
     display: grid;
     grid-template-columns: 200px auto;
     grid-template-rows: 100px 1fr;
@@ -7,22 +7,25 @@
     width: 98%;
     height: auto;
     margin-top: 1.2rem;
-    &__logo{
+
+    &__logo {
         width: 150px;
         margin: 0 0 0 $s;
     }
 }
-.navmenu{
+
+.navmenu {
     display: grid;
-    grid-template-columns: 4fr 200px;
+    grid-template-columns: 4fr 250px;
     //  background-color: blue;
     grid-column-gap: 10px;
-    
+
 }
-.header__title{
+
+.header__title {
     color: $white;
     padding: 0 0 0 1rem;
-    grid-column: 1/ -1;        
-    text-shadow:  2px 2px 8px #888888;
-    
+    grid-column: 1/ -1;
+    text-shadow: 2px 2px 8px #888888;
+
 }

@@ -5,6 +5,12 @@
     border-bottom: 1px solid $line;
     margin-right: $s;
     padding: $h $q;
+    grid-column: 2 /-1;
+
+    @include to(md) {
+      width: 50%;
+      margin: 0 auto;
+    }
 
     button {
       border: 0;
