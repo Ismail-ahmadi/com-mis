@@ -1,80 +1,98 @@
 .footer {
   margin: $s*3 0 0 0;
   background-color: $black;
-  width:100%;
+  width: 100%;
   color: $white;
   height: auto;
-  &__content{
+
+  &__content {
     // background-color: $gray-100;
-    width: 85%;
+    width: $container-width;
+    max-width: $container-max;
     margin: 10px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax($s*18, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax($s*18, 1fr));
+
     @include from(lg) {
       box: horizontal top;
     }
+
+    @include to(md) {
+      grid-template-columns: 1fr;
+    }
+
     // grid-template-rows: 1fr 100px;
     // // just-items: center;
     // justify-self: center;  
     // justify-items: center;
-    &__right{
+    &__right {
       width: 98%;
       height: auto;
-      margin: 0 ;
+      margin: 0;
       // background-color: blue; 
     }
-    &__center{
+
+    &__center {
       width: 98%;
       height: auto;
       // background-color: greenyellow; 
     }
-    &__left{
+
+    &__left {
       width: 98%;
       height: auto;
       // background-color: green; 
     }
-    &__bottom{
+
+    &__bottom {
       // grid-column: 1/ -1;
       width: 100%;
       height: auto;
       background-color: $lightBlack;
-      p{
+
+      p {
         text-align: center;
         color: $white;
-        padding: 25px 0 ;
+        padding: 25px 0;
         font-size: 0.8rem;
         // margin-left: 25%;
         // background-color: red;
       }
     }
   }
+
   h4 {
     margin: 0;
     padding: 0.2rem 0.6rem;
   }
+
   p {
     padding: 0.4rem 0.6rem;
     margin: 0;
     font-size: 0.8rem;
   }
+
   label {
     color: $white;
     margin: 0;
     font-size: 0.8rem;
     padding: 0.2rem 0.6rem;
   }
+
   input {
     height: 12px;
     border: none;
     outline: none;
     margin-left: 1rem;
   }
+
   textarea {
     height: 45px;
     border: none;
     outline: none;
     margin-left: 1rem;
   }
+
   button {
     border: 0;
     outline: 0;
@@ -83,9 +101,10 @@
     padding: 0.6rem 1.4rem;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    &:hover{
+
+    &:hover {
       background-color: $orange;
-      transition: all 0.2s ease-in-out;  
+      transition: all 0.2s ease-in-out;
     }
   }
 }
