@@ -111,3 +111,12 @@ strong {
 .farsi {
   direction: rtl;
 }
+
+a:hover {
+  color: $orange;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}

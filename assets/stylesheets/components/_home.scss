@@ -1,7 +1,7 @@
 .homeimage {
     width: 100%;
     max-width: $container-max;
-    min-height: 400px;
+    min-height: 500px;
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -9,10 +9,12 @@
     background-size: cover;
 
 }
+
 .cardimage {
     width: 250px;
     height: auto;
 }
+
 .cardholder {
     width: 100%;
     height: auto;
@@ -22,6 +24,7 @@
     margin-bottom: $s;
     font-size: 0.7rem;
 }
+
 .button {
     background-color: $lightBlack;
     color: $white;

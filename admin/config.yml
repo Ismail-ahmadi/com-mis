@@ -1,239 +1,449 @@
 backend:
-  name: 'git-gateway'
-  branch: 'master'
+  name: "git-gateway"
+  branch: "master"
 
-display_url: 'https://mis-com.netlify.com'
-logo_url: 'https://wood.netlify.com/assets/favicons/android-chrome-384x384.png'
+display_url: "https://mis-com.netlify.com"
+logo_url: "https://wood.netlify.com/assets/favicons/android-chrome-384x384.png"
 media_library:
-  name: 'uploadcare'
+  name: "uploadcare"
   config:
-    publicKey: '878d9333b417f60911fa'
+    publicKey: "878d9333b417f60911fa"
     imagesOnly: true
-    tabs: 'file gphotos url'
+    tabs: "file gphotos url"
 
 collections:
-  - name: 'pages'
-    label: 'Pages'
-    description: 'All pages from both English and Indonesian websites'
+  - name: "pages"
+    label: "Pages"
+    description: "All pages from both English and Indonesian websites"
     editor:
       preview: false
     files:
-      - label: 'Home'
-        name: 'home'
-        file: 'pages/home.md'
+      - label: "Home"
+        name: "home"
+        file: "pages/home.md"
         fields:
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string', hint: 'use <br> to make a new line' }
-          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
-          - { label: 'Body', name: 'body', widget: 'markdown' } 
-      - label: 'About Us'
-        name: 'about'
-        file: 'pages/about.md'
+          - {
+              label: "Headertitle",
+              name: "headertitle",
+              widget: "string",
+              hint: "use <br> to make a new line",
+            }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "home",
+            }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Imagehome", name: "imagehome", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About Us"
+        name: "about"
+        file: "pages/about.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'about' }
-          - { label: 'Tags', name: 'tags', widget: 'string', default: 'nav', hint: 'use a single word' }
-          - { label: 'Summary', name: 'summary', widget: 'text' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'contact'
-        name: 'contact'
-        file: 'pages/contact.md'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Slug", name: "slug", widget: "hidden", default: "about" }
+          - {
+              label: "Tags",
+              name: "tags",
+              widget: "string",
+              default: "nav",
+              hint: "use a single word",
+            }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "contact"
+        name: "contact"
+        file: "pages/contact.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'contact' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-      - label: 'FAQ'
-        name: 'faq'
-        file: 'pages/faq.md'
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "contact",
+            }
+          - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+      - label: "FAQ"
+        name: "faq"
+        file: "pages/faq.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'FAQ' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'faq' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - label: 'Questions'
-            name: 'questions'
-            widget: 'list'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Nav", name: "navtitle", widget: "hidden", default: "FAQ" }
+          - { label: "Slug", name: "slug", widget: "hidden", default: "faq" }
+          - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
             fields:
-              - { label: 'Question', name: 'question', widget: 'string' }
-              - { label: 'Answer', name: 'answer', widget: 'text' }
-      - label: 'Khone'
-        name: 'khone'
-        file: 'pages/id/home.md'
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+      - label: "Khone"
+        name: "khone"
+        file: "pages/id/home.md"
         fields:
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string', hint: 'use <br> to make a new line' }
-          - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: '/id/' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Imagehome', name: 'imagehome', widget: 'image' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'darbarie-ma'
-        name: 'darbarie'
-        file: 'pages/id/darbarie-ma.md'
+          - {
+              label: "Headertitle",
+              name: "headertitle",
+              widget: "string",
+              hint: "use <br> to make a new line",
+            }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/id/",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "home",
+            }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Imagehome", name: "imagehome", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "darbarie-ma"
+        name: "darbarie"
+        file: "pages/id/darbarie-ma.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'darbarie-ma' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'navId' }
-          - { label: 'Lang', name: 'lang', widget: 'hidden', default: 'id' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - { label: 'Summary', name: 'summary', widget: 'text' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'tamas'
-        name: 'contact'
-        file: 'pages/id/tamas.md'
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "darbarie-ma",
+            }
+          - { label: "Tags", name: "tags", widget: "hidden", default: "navId" }
+          - { label: "Lang", name: "lang", widget: "hidden", default: "id" }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "tamas"
+        name: "contact"
+        file: "pages/id/tamas.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'Contact-us' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
-          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'تماس با ما' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-      - label: 'FAQ-fa'
-        name: 'faq-fa'
-        file: 'pages/id/faq-fa.md'
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "Contact-us",
+            }
+          - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
+          - {
+              label: "Nav",
+              name: "navtitle",
+              widget: "hidden",
+              default: "تماس با ما",
+            }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+      - label: "FAQ-fa"
+        name: "faq-fa"
+        file: "pages/id/faq-fa.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Nav', name: 'navtitle', widget: 'hidden', default: 'سوال های مشابه' }
-          - { label: 'Slug', name: 'slug', widget: 'hidden', default: 'faq' }
-          - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
-          - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-          - { label: 'Headertitle', name: 'headertitle', widget: 'string' }
-          - label: 'Questions'
-            name: 'questions'
-            widget: 'list'
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Nav",
+              name: "navtitle",
+              widget: "hidden",
+              default: "سوال های مشابه",
+            }
+          - { label: "Slug", name: "slug", widget: "hidden", default: "faq" }
+          - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
+          - {
+              label: "Header",
+              name: "header",
+              widget: "image",
+              hint: "the size should be bigger than 16 inch *
+                6 inch ",
+            }
+          - { label: "Headertitle", name: "headertitle", widget: "string" }
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
             fields:
-              - { label: 'Question', name: 'question', widget: 'string' }
-              - { label: 'Answer', name: 'answer', widget: 'text' }
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
 
-  - name: 'events'
-    label: 'Events in English'
-    description: 'Add or modify English events here'
+  - name: "events"
+    label: "Events in English"
+    description: "Add or modify English events here"
     editor:
       preview: false
-    folder: 'events'
+    folder: "events"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Navigation title', name: 'navtitle', widget: 'string', hint: 'must be just a single word.'}
-      - { label: 'Header', name: 'header', widget: 'image', hint: 'the size should be bigger than 16 inch * 
-          6 inch ' }
-      - {label: 'Date', name: 'date', widget: 'date'}
-      - {label: 'Location', name: 'location', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {label: 'Image', name: 'image', widget: 'image', required: false}
-      - label: 'Gallery'
-        name: 'gallery'
-        widget: 'image'
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Navigation title",
+          name: "navtitle",
+          widget: "string",
+          hint: "must be just a single word.",
+        }
+      - {
+          label: "Header",
+          name: "header",
+          widget: "image",
+          hint: "the size should be bigger than 16 inch *
+            6 inch ",
+        }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "image"
         required: false
         media_library:
           config:
             multiple: true
             previewStep: false
 
-  - name: 'events-id'
-    label: 'Eventss in Farsi'
-    description: 'Add or modify events in Farsi here'
+  - name: "events-id"
+    label: "Eventss in Farsi"
+    description: "Add or modify events in Farsi here"
     editor:
       preview: false
-    folder: 'events/id'
+    folder: "events/id"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Date', name: 'date', widget: 'date'}
-      - {label: 'Location', name: 'location', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {label: 'Image', name: 'image', widget: 'image', required: false}
-      - label: 'Gallery'
-        name: 'gallery'
-        widget: 'image'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "image"
         required: false
         media_library:
           config:
             multiple: true
             previewStep: false
-  
-  - name: 'settings'
-    label: 'Settings'
-    description: 'Configure settings for the website here'
+
+  - name: "settings"
+    label: "Settings"
+    description: "Configure settings for the website here"
     delete: false
     editor:
       preview: false
     files:
-      - label: 'Site Settings'
-        name: 'settings'
-        file: 'config/config.json'
+      - label: "Site Settings"
+        name: "settings"
+        file: "config/config.json"
         fields:
-          - label: 'General'
-            name: 'site'
-            widget: 'object'
+          - label: "General"
+            name: "site"
+            widget: "object"
             fields:
-              - { label: 'Site Name', name: 'name', widget: 'string'}
-              - { label: 'Home URL', name: 'url', widget: 'string', hint: 'Must starts with https://'}
-              - { label: 'Default Language', name: 'lang', widget: 'string'}
-              - { label: 'Summary', name: 'summary', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text', hint: 'Must not exceed 160 characters' }
-              - { label: 'Logo', name: 'logo', widget: 'image', hint: 'This image appears in the header'}
-              - { label: 'Admin Email', name: 'webmaster', widget: 'string' }
-              - { label: 'Theme Color', name: 'themeColor', widget: 'string', hint: 'Hex value of a color. For example, #ffffff'}
-              - { label: 'Fallback Image', name: 'image', widget: 'image', hint: 'This image will be displayed when a post or page does not have a default cover image'}
-          - label: 'Footer'
-            name: 'footer'
-            widget: 'object'
+              - { label: "Site Name", name: "name", widget: "string" }
+              - {
+                  label: "Home URL",
+                  name: "url",
+                  widget: "string",
+                  hint: "Must starts with https://",
+                }
+              - { label: "Default Language", name: "lang", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  hint: "Must not exceed 160 characters",
+                }
+              - {
+                  label: "Logo",
+                  name: "logo",
+                  widget: "image",
+                  hint: "This image appears in the header",
+                }
+              - { label: "Admin Email", name: "webmaster", widget: "string" }
+              - {
+                  label: "Theme Color",
+                  name: "themeColor",
+                  widget: "string",
+                  hint: "Hex value of a color. For example, #ffffff",
+                }
+              - {
+                  label: "Fallback Image",
+                  name: "image",
+                  widget: "image",
+                  hint: "This image will be displayed when a post or page does not have a default cover image",
+                }
+              - {
+                  label: "Facebook URL",
+                  name: "fburl",
+                  widget: "string",
+                  hint: "Must starts with https://",
+                }
+              - {
+                  label: "Twitter URL",
+                  name: "twurl",
+                  widget: "string",
+                  hint: "Must starts with https://",
+                }
+              - {
+                  label: "Instagram URL",
+                  name: "igurl",
+                  widget: "string",
+                  hint: "Must starts with https://",
+                }
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
             fields:
-              - { label: 'Footer Center Title', name: 'footercentertitle', widget: 'string', hint: 'This  is the title of footer, center section'}
-              - { label: 'Footer Center', name: 'footercenter', widget: 'markdown', hint: 'This  is the content of footer, center section'}
-              - { label: 'Footer Right Title', name: 'footerrighttitle', widget: 'string', hint: 'This  is the title of footer, right section'}
-              - { label: 'Footer Right', name: 'footerright', widget: 'markdown', hint: 'This  is the content of footer, right section'}
-          - label: 'Locales'
-            name: 'locales'
-            widget: 'object'
-            fields: 
-              - label: 'English'
-                name: 'en'
-                widget: 'object'
-                fields: 
-                  - { label: 'URL', name: 'url', widget: 'string' }
-                  - { label: 'next', name: 'next', widget: 'string' }
-              - label: 'Indonesian'
-                name: 'id'
-                widget: 'object'
-                fields: 
-                  - { label: 'URL', name: 'url', widget: 'string' }
-                  - { label: 'next', name: 'next', widget: 'string' }
-          - label: 'Social'
-            name: 'social'
-            widget: 'object'
+              - {
+                  label: "Footer Center Title",
+                  name: "footercentertitle",
+                  widget: "string",
+                  hint: "This  is the title of footer, center section",
+                }
+              - {
+                  label: "Footer Center",
+                  name: "footercenter",
+                  widget: "markdown",
+                  hint: "This  is the content of footer, center section",
+                }
+              - {
+                  label: "Footer Right Title",
+                  name: "footerrighttitle",
+                  widget: "string",
+                  hint: "This  is the title of footer, right section",
+                }
+              - {
+                  label: "Footer Right",
+                  name: "footerright",
+                  widget: "markdown",
+                  hint: "This  is the content of footer, right section",
+                }
+          - label: "Locales"
+            name: "locales"
+            widget: "object"
             fields:
-              - { label: 'Facebook Page', name: 'facebook', widget: 'string', required: false }
-              - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
-              - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
-          - label: 'Analytics'
-            name: 'analytics'
-            widget: 'object'
+              - label: "English"
+                name: "en"
+                widget: "object"
+                fields:
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "next", name: "next", widget: "string" }
+              - label: "Indonesian"
+                name: "id"
+                widget: "object"
+                fields:
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "next", name: "next", widget: "string" }
+          - label: "Social"
+            name: "social"
+            widget: "object"
             fields:
-              - { label: 'Google Tracking ID', name: 'google', widget: 'string', required: false, hint: 'Starts with GTM- ...' }
-              - { label: 'Twitter Handle', name: 'twitter', widget: 'string', required: false }
-              - { label: 'Facebook App ID', name: 'facebook', widget: 'string', required: false }
-          - label: 'Form'
-            name: 'form'
-            widget: 'object'
+              - {
+                  label: "Facebook Page",
+                  name: "facebook",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Twitter",
+                  name: "twitter",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Instagram",
+                  name: "instagram",
+                  widget: "string",
+                  required: false,
+                }
+          - label: "Analytics"
+            name: "analytics"
+            widget: "object"
             fields:
-              - { label: 'Form Name', name: 'name', widget: 'string', hint: 'What the form is called in Netlify (Capitalize first letter)' }
+              - {
+                  label: "Google Tracking ID",
+                  name: "google",
+                  widget: "string",
+                  required: false,
+                  hint: "Starts with GTM- ...",
+                }
+              - {
+                  label: "Twitter Handle",
+                  name: "twitter",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Facebook App ID",
+                  name: "facebook",
+                  widget: "string",
+                  required: false,
+                }
+          - label: "Form"
+            name: "form"
+            widget: "object"
+            fields:
+              - {
+                  label: "Form Name",
+                  name: "name",
+                  widget: "string",
+                  hint: "What the form is called in Netlify (Capitalize first letter)",
+                }

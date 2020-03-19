@@ -1,4 +1,11 @@
 {
   "layout": "page",
-  "permalink": "/{{ slug | slug }}/index.html"
+  "permalink": "/{{ slug | slug }}/index.html",
+  "footerleftT": "Who we are",
+  "footerleft": "A group of believers and ‘seekers’ to address the most common misunderstandings, misapprehensions, preconceptions among Muslim about real Christianity.",
+  "footercenterT": "Our mission",
+  "footercenter": "Our mission is to reveal the truth and image of one and only God to the world and we do not aim to offend anyone in here and We hope that Almighty God will guide and lead us in this righteous intention.",
+  "footerrightT": "Our Vision",
+  "footerright": "Our main vision is to remove all misunderstandings about real Christianity and make known the truth to you, our dear friends.",
+  "socialmedia": "Our Social Media"
 }

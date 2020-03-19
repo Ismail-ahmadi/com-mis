@@ -1,20 +1,25 @@
 <footer class="footer">
   <div class="footer__content">
+  
     <div class="footer__content__left">
-      <h4 class="white">Our Social Media</h4> 
+    <h4>{{ footerleftT }}</h4>
+      <p>{{ footerleft }}</p>
+      <h4 class="white"> {{ socialmedia }} </h4> 
+      <a href="{{ config.site.fburl }}"> {% Icon 'facebook' %}</a>
+      <a href="{{ config.site.twurl }}"> {% Icon 'twitter' %}</a>
+      <a href="{{ config.site.igurl }}"> {% Icon 'instagram' %}</a>
+          
     </div>
     <div class="footer__content__center">
-      <h4 class="white" >{{ config.footer.footercentertitle }}</h4>
-      <p>{{ config.footer.footercenter }}</p>
+      <h4>{{ footercenterT }}</h4>
+      <p>{{ footercenter }}</p>
     </div>
     <div class="footer__content__right">
-      <h4 class="white">{{ config.footer.footerrighttitle }}</h4>
-      <p>{{ <config.footer.footerright }}</p>
+      <h4> {{ footerrightT }} </h4>
+      <p> {{ footerright }} </p>
     </div>
   </div>
   <div class="footer__content__bottom">
-      <P>
-      Copyright  ©  {{ 'now' | date: '%Y' }}  Muslims' most misconception about Christianity, Christain life, and Holy Book
-    </P>
+      <p>Copyright  ©  {{ 'now' | date: '%Y' }} Noorhaqiqi.com</p>
   </div>
 </footer>

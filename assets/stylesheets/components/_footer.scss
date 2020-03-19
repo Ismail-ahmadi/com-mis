@@ -5,6 +5,18 @@
   color: $white;
   height: auto;
 
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: $orange;
+  }
+
+  h4 {
+    color: white;
+  }
+
   &__content {
     // background-color: $gray-100;
     width: $container-width;
