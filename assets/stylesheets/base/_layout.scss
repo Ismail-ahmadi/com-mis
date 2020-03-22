@@ -13,3 +13,26 @@
     max-width: $container-text-max;
   }
 }
+
+.containerFa {
+  position: relative;
+  margin: auto;
+  width: $container-width;
+  max-width: $container-max;
+
+  &--text {
+    max-width: $container-text-max;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // color: red;
+    direction: rtl;
+    text-align: right;
+  }
+}

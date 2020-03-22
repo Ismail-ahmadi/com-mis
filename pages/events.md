@@ -1,10 +1,10 @@
 ---
-title: Upcoming events
-slug: event
-# tags: nav
-# navtitle: event
-header: 'https://ucarecdn.com/2e2aa5c7-e8a1-4649-b80a-34ea00245c53/'
-headertitle: Indonesian engineered wood floor for creative living
+title: Historical Events
+slug: events
+tags: nav
+header: 'https://ucarecdn.com/1b41ad74-7152-4d01-b1a3-18c88d0238d6/'
+headertitle: It is also important to note that Muslims have many misconceptions about Christianity
+titlebanner: Historical Events in Christiantiy and Islam
+whiteslogan: 'Seeking truth'
 ---
-
-<p class="lead">Find Our products list</p>
+<p class="lead">Here is a list of Historical important event in Christianity and Islam</p>

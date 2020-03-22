@@ -1,5 +1,0 @@
-{
-    "tags": "product",
-    "layout": "product",
-    "permalink": "/products/{{ title | slug }}/index.html"
-}
