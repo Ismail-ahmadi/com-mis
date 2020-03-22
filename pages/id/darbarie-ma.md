@@ -4,7 +4,7 @@ tags: nav
 navtitle: درباره ما
 title: سوتفاهم  درباره مسیحیت واقعی و کتاب مقدس
 header: 'https://ucarecdn.com/ccdc3425-8dc1-46e2-a2b9-e52d52f28a8f/'
-headertitle: سوتفاهم  درباره مسیحیت واقعی و کتاب مقدس
+headertitle: ' '
 summary: سوتفاهم  درباره مسیحیت واقعی و کتاب مقدس
 ---
 <h2 class="farsi" > خوش آمدین  </h2>  
