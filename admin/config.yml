@@ -259,11 +259,70 @@ collections:
             previewStep: false
 
   - name: "events-id"
-    label: "Eventss in Farsi"
+    label: "Events in Farsi"
     description: "Add or modify events in Farsi here"
     editor:
       preview: false
     folder: "events/id"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            multiple: true
+            previewStep: false
+
+  - name: "articles"
+    label: "Articles in English"
+    description: "Add or modify English articles here"
+    editor:
+      preview: false
+    folder: "articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Navigation title",
+          name: "navtitle",
+          widget: "string",
+          hint: "must be just a single word.",
+        }
+      - {
+          label: "Header",
+          name: "header",
+          widget: "image",
+          hint: "the size should be bigger than 16 inch *
+            6 inch ",
+        }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            multiple: true
+            previewStep: false
+
+  - name: "article-farsi"
+    label: "Articles in Farsi"
+    description: "Add or modify Articles in Farsi here"
+    editor:
+      preview: false
+    folder: "articles/id"
     create: true
     slug: "{{slug}}"
     fields:
