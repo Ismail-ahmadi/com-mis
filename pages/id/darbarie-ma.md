@@ -2,7 +2,7 @@
 slug: darbarie-ma
 tags: nav
 navtitle: درباره ما
-title: سوتفاهم  درباره مسیحیت واقعی و کتاب مقدس
+title: '  '
 header: 'https://ucarecdn.com/ccdc3425-8dc1-46e2-a2b9-e52d52f28a8f/'
 headertitle: ' '
 summary: سوتفاهم  درباره مسیحیت واقعی و کتاب مقدس
