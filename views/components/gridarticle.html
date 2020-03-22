@@ -1,6 +1,6 @@
 <div class="grid">
   {% for articles in collections.article %} 
-    <a class="grid__item" href="#{{ article.data.number }}" style="background-image: url({{ article.data.image | getImageUrl: 400 }})">
+    <a class="grid__item" href="#{{ articles.data.number }}" style="background-image: url({{ articles.data.image | getImageUrl: 400 }})">
       <div class="grid__overlay"></div>
       <p>Grid Article</p>
   {% endfor %}
