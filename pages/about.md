@@ -2,10 +2,24 @@
 title: About Us
 slug: about
 tags: nav
-summary: Misconceptions About Muslims
+summary: >-
+  the most common misunderstandings, misapprehensions, preconceptions about real
+  Christianity.
 header: 'https://ucarecdn.com/ad2c750a-11bf-4583-8029-b18570e026a7/'
-headertitle: Muslims’ Misconceptions
+headertitle: >-
+  the most common misunderstandings, misapprehensions, preconceptions among
+  Muslim about real Christianity.
 ---
-It is also important to note that Muslims have many misconceptions about Christianity. Most Muslims don’t understand our view of the Trinity, and wrongly assume that Christians worship three Gods. The sonship of Jesus is a stumbling block for them because many mistakenly take it to mean that God had sexual relations with Mary. Muslims also view Christianity primarily through the lens of Western society. In the Muslim world, Islam is woven into every fabric of society so that the religion’s value is reflected in the culture. Therefore, some Muslims have a hard time accepting the claims of Christ because they see the vices in our society and wrongly attribute them to Christianity.
+#### Who we are
 
-It is important to dispel all these misunderstandings, but I want to highlight one misconception in particular that shows the importance of engaging your Muslim neighbor. Many Muslims think that the biblical doctrine of justification by grace alone through faith alone in Christ alone is absurd. They view it as a cheap grace. They think Christianity essentially means saying a prayer to believe in Jesus, and then living however you want because you have been forgiven. They ask, “Then why would you live for God? Why would you do anything for God?” With that question, they admit that they believe the only reason someone would live for God is fear. The motive is to earn God’s favor, or else I’m going to go to hell. But what if there’s a better way?
+A group of believers and ‘seekers’ to address the most common misunderstandings, misapprehensions, preconceptions among Muslim about real Christianity.
+
+#### Our Vision
+
+Our main vision is to remove all misunderstandings about real Christianity and make known the truth to you, our dear friends.
+
+#### Our mission
+
+Our mission is to reveal the truth and image of one and only God to the world and we do not aim to offend anyone in here and We hope that Almighty God will guide and lead us in this righteous intention.
+
+**Please Follow us on Social Media: [Facebook](http://www.noorehaqiqi.com), [Youtube](http://www.noorehaqiqi.com/youtube), [Instagram ](http://www.noorehaqiqi.com)**
