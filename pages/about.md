@@ -3,11 +3,11 @@ title: About Us
 slug: about
 tags: nav
 summary: >-
-  the most common misunderstandings, misapprehensions, preconceptions about real
+  The most common misunderstandings, misapprehensions, preconceptions about real
   Christianity.
 header: 'https://ucarecdn.com/ad2c750a-11bf-4583-8029-b18570e026a7/'
 headertitle: >-
-  the most common misunderstandings, misapprehensions, preconceptions among
+  The most common misunderstandings, misapprehensions, preconceptions among
   Muslim about real Christianity.
 ---
 #### Who we are
