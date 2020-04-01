@@ -5,8 +5,7 @@
 {% block content %}
 
   <div class="container">
-    <h2> {{ 'share' | t: lang }}</h2>
-    
+  <h2 class="center"> {{ 'article' | t: lang }}</h2>
 
     <div class="grid">
     
@@ -20,7 +19,7 @@
       {{ content }}
     <div class="homeimage" style="background-image: url('{{ imagehome }}')" ></div>
     <br />
-    <h2>{{ 'event' | t: lang }}</h2>
+    <h2 class="center">{{ 'event' | t: lang }}</h2>
     <div class="grid">
   {% for event in collections.homeevent %} 
     <a class="grid__item" href="#{{ event.data.number }}" style="background-image: url({{ event.data.image | getImageUrl: 400 }})">
