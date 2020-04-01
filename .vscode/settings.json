@@ -33,5 +33,8 @@
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

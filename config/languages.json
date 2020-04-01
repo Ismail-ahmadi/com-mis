@@ -1,14 +1,18 @@
 {
     "en": {
-        "share": "Share",
+        "share": "The recent articles",
         "search": "Search our website...",
         "en": "English",
-        "id": "فارسی"
+        "id": "فارسی",
+        "event": "The big event",
+        "article": "The recent articles"
     },
     "id": {
-        "share": "اشتراک",
+        "share": "احرین مقاله های ما",
         "search": "جستجو در سایت ما ... ",
         "en": "English",
-        "id": "فارسی"
+        "id": "فارسی",
+        "event": "رویداد هاس بزرگ",
+        "article": "احرین مقاله های ما"
     }
 }
